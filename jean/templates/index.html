@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HOME PAGE</title>
+</head>
+<body>
+<form action="/insert" method="POST">
+   {% csrf_token %}
+    <input type="text" placeholder="Enter your ID">
+    <input type="text" placeholder="Enter your name">
+    <input type="number" placeholder="Enter your age">
+    <input type="email" placeholder="Enter your email">
+    <input type="number" placeholder="Enter your phone number">
+
+</form>
+
+
+</body>
+</html>

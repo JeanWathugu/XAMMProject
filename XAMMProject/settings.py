@@ -73,10 +73,10 @@ WSGI_APPLICATION = 'XAMMProject.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
+        'ENGINE': 'django.db.backends.sqlite3',
         'NAME': 'django.db',
         'USER': 'root',
-        'PASSWORD': 'mysql',
+        'PASSWORD': 'sqlite3',
         'HOST': 'localhost',
         'PORT': '3306'
 
